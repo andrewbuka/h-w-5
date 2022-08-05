@@ -1,0 +1,48 @@
+/* Common styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Styles for header */
+
+header {
+  width: 100%;
+  background-color: #8EBC8E;
+  border: 1px solid #8EBC8E;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-decoration: overline;
+  margin-top: 20px;
+  padding-bottom: 0;
+}
+
+ul {
+  text-align: center;
+  letter-spacing: 5px;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 400px;
+}
+
+
+.list li:nth-child(2),
+.list li:nth-child(5) {
+  color: #146409;
+  font-weight: bold;
+  text-decoration: underline #146409 dashed 2px;
+}
+
+.list li:nth-child(3) {
+  text-decoration: line-through #aa2222 solid 1px;
+}
+
