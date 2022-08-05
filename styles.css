@@ -46,3 +46,37 @@ img {
   text-decoration: line-through #aa2222 solid 1px;
 }
 
+/*Styles for boxes of description blocs */
+
+.wrapper-praha,
+.wrapper-germany,
+.wrapper-paris,
+.wrapper-austria {
+  width: 21.5%;
+  min-height: 180px;
+}
+
+.wrapper-praha {
+  background-color: yellow;
+  margin-left: 3%;
+  border: 5px dotted black;
+}
+
+.wrapper-germany {
+  background-color: #9470DC;
+  margin-left: 15%;
+  border: 5px dashed black;
+}
+
+.wrapper-paris {
+  background-color: #9ACD32;
+  margin-left: 58%;
+  border: 5px dashed black;
+}
+
+.wrapper-austria {
+  background-color: #FA8071;
+  margin-left: 50%;
+  border: 5px dotted black;
+}
+
