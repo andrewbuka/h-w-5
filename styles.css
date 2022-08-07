@@ -18,6 +18,7 @@ header {
 h1 {
   text-align: center;
   letter-spacing: 5px;
+  word-spacing: 15px;
   text-decoration: overline;
   margin-top: 20px;
   padding-bottom: 0;
@@ -43,7 +44,7 @@ img {
 }
 
 .list li:nth-child(3) {
-  text-decoration: line-through #aa2222 solid 1px;
+  text-decoration: line-through #aa2222 solid 2px;
 }
 
 /*Styles for boxes of description blocs */
@@ -58,26 +59,26 @@ img {
 
 .wrapper-praha {
   background-color: yellow;
-  margin-left: 3%;
   border: 5px dotted black;
+  margin-left: 3%;
 }
 
 .wrapper-germany {
   background-color: #9470DC;
-  margin-left: 15%;
   border: 5px dashed black;
+  margin-left: 15%;
 }
 
 .wrapper-paris {
   background-color: #9ACD32;
-  margin-left: 58%;
   border: 5px dashed black;
+  margin-left: 54%;
 }
 
 .wrapper-austria {
   background-color: #FA8071;
-  margin-left: 50%;
   border: 5px dotted black;
+  margin-left: 33%;
 }
 
 /* Styles for description blocs */
@@ -111,9 +112,9 @@ img {
 }
 
 h2 {
-  text-transform: uppercase;
   font-style: italic;
   font-size: 1em;
+  text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
 }
